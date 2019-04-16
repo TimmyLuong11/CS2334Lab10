@@ -41,7 +41,7 @@ public class SinusoidTest
 	{
 		Assert.assertEquals("Sinusoid color incorrect", Color.MAGENTA, s0.getColor());
 		Assert.assertEquals("Sinusoid color incorrect", Color.ORANGE, s1.getColor());
-		Assert.assertEquals("Sinusoid color incorrect", Color.GREEN, s2.getColor());
+		Assert.assertEquals("Sinusoid color incorrect", Color.GREEN, s2.getColor()); 
 		Assert.assertEquals("Sinusoid color incorrect", Color.RED, s3.getColor());
 	}
 
